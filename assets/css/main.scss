@@ -286,15 +286,22 @@ label {
 }
 
 .sales {
+
+  h2 {
+
+    border-bottom: 1px solid $light;
+    padding-bottom: 5px;
+  }
     
     .card {
       border: 1px solid $light;
       margin: 10px 16px ;
+      box-shadow: 1px 1px 1px $light;
     }
 
    .card img {
      height: 200px;
-     width:50%;
+     width:100%;
      max-width: 400px;
      margin: 0 auto;
      

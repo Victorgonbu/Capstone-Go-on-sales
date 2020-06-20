@@ -318,14 +318,21 @@ h2.header-ttl {
   }
 }
 
+.sales h2 {
+  border-bottom: 1px solid #888888;
+  padding-bottom: 5px;
+}
+
 .sales .card {
   border: 1px solid #888888;
   margin: 10px 16px;
+  -webkit-box-shadow: 1px 1px 1px #888888;
+          box-shadow: 1px 1px 1px #888888;
 }
 
 .sales .card img {
   height: 200px;
-  width: 50%;
+  width: 100%;
   max-width: 400px;
   margin: 0 auto;
 }
