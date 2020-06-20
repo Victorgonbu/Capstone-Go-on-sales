@@ -181,15 +181,15 @@ body {
   color: #383838;
 }
 
-.hot-ads {
-  height: 100%;
-}
-
-.hot-ads h2 {
+h2.header-ttl {
   font-size: 1.2em;
   color: #888888;
   padding: 15px;
   margin: 0;
+}
+
+.hot-ads {
+  height: 100%;
 }
 
 .slider {
@@ -316,5 +316,59 @@ body {
   100% {
     left: -400%;
   }
+}
+
+.sales .card {
+  border: 1px solid #888888;
+  margin: 10px 16px;
+}
+
+.sales .card img {
+  height: 200px;
+  width: 50%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.sales .new {
+  color: #d35266;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 8px 0;
+}
+
+.sales .ship {
+  font-size: 11px;
+}
+
+.sales .from {
+  color: #888888;
+  text-transform: capitalize;
+}
+
+.sales .add-sign {
+  border: 1px solid #888888;
+  border-radius: 5px;
+  padding: 2px 6px;
+  -webkit-transition: background-color 0.2s ease-out, color 0.1s ease-in-out;
+  transition: background-color 0.2s ease-out, color 0.1s ease-in-out;
+}
+
+.sales .add-sign:hover {
+  background-color: #d35266;
+  border: 1px solid #ab4454;
+  color: white;
+}
+
+.sales .card-price {
+  font-size: 2em;
+  font-weight: 900;
+  color: #d35266;
+  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+.sales .card-price:hover {
+  color: #e65a6f;
 }
 /*# sourceMappingURL=main.css.map */
