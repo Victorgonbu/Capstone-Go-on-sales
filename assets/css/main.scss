@@ -180,6 +180,7 @@ body {
     z-index: -1;
     .card {
         border: 0;
+        min-height: 250px;
     }
 
     h2 {
@@ -233,4 +234,59 @@ body {
         margin-right: -5px;
     
     }
+}
+
+
+.slider {
+  position: relative;
+  width: 500%;
+  animation: 20s slider infinite;
+  &:hover {
+    animation-play-state: paused;
+  }
+  .card {
+    width: 20%;
+    float: left;
+  }
+
+  @keyframes slider {
+    0% {
+       left: 0;
+    }
+
+    20% {
+      left: 0;
+    }
+
+    25% {
+      left: -100%;
+    }
+
+    45% {
+      left: -100%;
+    }
+
+    50% {
+      left: -200%;
+    }
+
+    70% {
+      left: -200%;
+    }
+
+    75% {
+      left: -300%;
+    }
+    95% {
+      left: -300%;
+    }
+
+    100% {
+      left: -400%;
+    }
+
+  
+  }
+
+
 }
