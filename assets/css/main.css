@@ -11,6 +11,7 @@ header {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 .header figure {
@@ -181,12 +182,7 @@ body {
 }
 
 .hot-ads {
-  z-index: -1;
-}
-
-.hot-ads .card {
-  border: 0;
-  min-height: 250px;
+  height: 100%;
 }
 
 .hot-ads h2 {
@@ -196,32 +192,55 @@ body {
   margin: 0;
 }
 
-.hot-ads img {
-  width: 100%;
-  height: 100%;
+.slider {
+  position: relative;
+  width: 500%;
+  border: 3px solid blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: slider 20s infinite;
+          animation: slider 20s infinite;
 }
 
-.hot-ads .card-title a {
+.slider .cardo {
+  height: 100%;
+  width: 20%;
+  border: 0;
+}
+
+.slider img {
+  width: 100%;
+  height: 50%;
+}
+
+.slider .card-body {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.slider .card-title a {
   color: #d35266;
 }
 
-.hot-ads .card-title a:hover {
+.slider .card-title a:hover {
   color: #e65a6f;
   text-decoration: none;
 }
 
-.hot-ads .card-text {
+.slider .card-text {
   color: #888888;
   font-size: 0.8em;
   margin-bottom: 1.5em;
 }
 
-.hot-ads label {
+.slider label {
   border-radius: 5px;
   border: 1px solid #d35266;
 }
 
-.hot-ads .btn {
+.slider .btn {
   background-color: #d35266;
   border-radius: 0;
   color: white;
@@ -230,30 +249,13 @@ body {
   border: 2px solid #d35266;
 }
 
-.hot-ads .btn:hover {
+.slider .btn:hover {
   background-color: #e65a6f;
   border: 2px solid #ab4454;
 }
 
-.hot-ads .btn-price {
+.slider .btn-price {
   margin-right: -5px;
-}
-
-.slider {
-  position: relative;
-  width: 500%;
-  -webkit-animation: 20s slider infinite;
-          animation: 20s slider infinite;
-}
-
-.slider:hover {
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
-}
-
-.slider .card {
-  width: 20%;
-  float: left;
 }
 
 @-webkit-keyframes slider {
