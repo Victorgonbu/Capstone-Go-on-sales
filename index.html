@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/ea4197418c.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -24,16 +25,16 @@
                
            </figure>
 
-           <ul class="d-flex mb-0">
-               <li><a href="">
+           <ul class="d-flex mb-0 ml-3">
+               <li class="text-uppercase"><a href="">
                 <i class="fas fa-home pr-1"></i>
-                   home</a></li>
-               <li><a href="">
+                   Home</a></li>
+               <li class="text-uppercase pr-1"><a href="">
                 <i class="fas fa-box pr-1"></i>
-                   collection</a></li>
-               <li><a href="">
+                   Collection</a></li>
+               <li class="text-upppercase"><a href="">
                 <i class="fas fa-shopping-cart pr-1"></i>
-                   purchase list</a></li>
+                   Purchase list</a></li>
            </ul>
 
            <button class="text-uppercase d-none">
@@ -42,54 +43,69 @@
 
        </nav>
 
-       <div class="wrapper-header w-100">
-
-       <div class="header-search">
-            
-      
-
-        <nav class="search-section d-flex">
-
-            
-            
-            <form action="" class="navbar-form">
-             <button class="navbar-toggler toggle" type="button" data-toggle="collapse" data-target="#mynav">
-                 <i class="fas fa-sliders-h"></i>
-             </button>
-             <input type="text" placeholder="Search for Sales">
-             <button class="search">Search</button>
- 
-             
-            </form>
-         
-         </nav>
- 
-         <div class="filter collapse navbar-collapse" id="mynav">
-             <ul class="navbar-nav ml-auto navbar-expand mt-1">
-                 <li class="nav-item text-uppercase mr-3 p-1 d-flex">
-                    <i class="fas fa-chevron-down mr-1"></i>
-                      Departments</li>
-                 <li class="nav-item text-uppercase ">
-                     <input type="text" placeholder="Location">
-                 </li>
      
-             </ul>
-         </div>
- 
-
-       
-    </div>
-       
-    </div>
         
     </header>
     <main>
+        <div class="wrapper-header w-100 ">
+
+            <div class="header-search ">
+                 
+           
+     
+             <nav class="search-section d-flex ">
+     
+                 
+                 
+                 <form action="" class="navbar-form">
+                  <button class="navbar-toggler toggle" type="button" data-toggle="collapse" data-target="#mynav">
+                      <i class="fas fa-sliders-h"></i>
+                  </button>
+                  <input type="text" placeholder="Make it real">
+                  <button class="search">Search</button>
+      
+                  
+                 </form>
+              
+              </nav>
+      
+              <div class="filter collapse navbar-collapse" id="mynav">
+                  <ul class="navbar-nav ml-auto navbar-expand mt-1">
+                      <li class="nav-item dropdown text-uppercase mr-3 p-1 d-flex">
+     
+                         <a class="nav-link dropdown-toggle text-capitalize p-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">All Categories</a>
+                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                             <a href="#" class="dropdown-item">graphics card</a>
+                             <a href="#" class="dropdown-item">Proccesors</a>
+                             <a href="#" class="dropdown-item">Power Supply's</a>
+                             <a href="#" class="dropdown-item">Motherboards</a>
+                             <a href="#" class="dropdown-item">Memory ram</a>
+                             <a href="#" class="dropdown-item">HDD Storage</a>
+                             <a href="#" class="dropdown-item">Ssd Storage</a>
+                             <a href="#" class="dropdown-item">Cases</a>
+                             <a href="#" class="dropdown-item">Monitors</a>
+
+                         </div>
+                         
+                          </li>
+                      <li class="nav-item text-uppercase p-0">
+                          <input type="text" placeholder="Location">
+                      </li>
+          
+                  </ul>
+              </div>
+      
+     
+            
+         </div>
+            
+         </div>
         <section class="hot-ads">
             <h2 class="text-uppercase">hot adds</h2>
-            <div class="card">
+            <div class="card ">
                 <img src="./assets/img/rtx2080.jpg" alt="">
                 <div class="card-body">
-                    <div class="card-title bolder">GIGABYTE NVIDIA GeForce RTX 2080 Ti Xtreme Waterforce</div>
+                    <div class="card-title bolder"><a href="#">GIGABYTE NVIDIA GeForce RTX 2080 Ti Xtreme Waterforce</a></div>
 
                     <div class="card-text">Integrated with 11GB GDDR6 352-bit memory interface, 
                         WATERFORCE all-in-one cooling system, 
@@ -104,7 +120,7 @@
                         <button type="button" class="btn btn-price">$ 800</button>
                         <button type="button" class="btn btn-buy">
                             <i class="fas fa-shopping-cart pr-1"></i>
-                             purchase</button>
+                             Purchase</button>
                     </label>
 
 
