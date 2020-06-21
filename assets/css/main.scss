@@ -78,7 +78,9 @@ body {
 
     a {
       color: $light;
-
+       i {
+        font-size: 18px;
+       }
       &:hover {
         color: $primary-clr;
         text-decoration: none;
@@ -106,7 +108,8 @@ body {
     width: 100%;
     min-width: 310px;
     border: 1px solid $primary-clr;
-    border-radius: 8px;
+    border-radius: 6px;
+    overflow: hidden;
 
     .dropdown {
       

@@ -88,6 +88,10 @@ body {
   color: #888888;
 }
 
+.header ul a i {
+  font-size: 18px;
+}
+
 .header ul a:hover {
   color: #d35266;
   text-decoration: none;
@@ -112,7 +116,8 @@ body {
   width: 100%;
   min-width: 310px;
   border: 1px solid #d35266;
-  border-radius: 8px;
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 .header-search form .dropdown a {

@@ -22,6 +22,9 @@
   .header ul {
     max-width: 600px;
   }
+  .header ul a i {
+    font-size: 13px;
+  }
   .hero-logo {
     color: white;
     padding-top: 1em;
@@ -37,6 +40,9 @@
   }
   .header-search input {
     padding: 0.6em;
+  }
+  .header-search form {
+    overflow: visible;
   }
   .slider {
     height: 240px;

@@ -34,7 +34,16 @@ $primary-lighter: #e65a6f;
 
         ul {
             max-width: 600px;
+
+            a {
+
+                i {
+                    font-size: 13px;
+                }
+            }
         }
+
+       
     }
 
     .hero-logo {
@@ -59,6 +68,10 @@ $primary-lighter: #e65a6f;
         input {
             padding: 0.6em;
         }
+
+        form {
+            overflow: visible;
+        }
        
     }
 
@@ -82,6 +95,8 @@ $primary-lighter: #e65a6f;
         ul {
             min-width: 500px;
         }
+
+      
     }
 
     .profile {
