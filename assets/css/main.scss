@@ -24,6 +24,7 @@ header {
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
+    min-width: 330px;
 }
 
 .header {
@@ -328,9 +329,9 @@ label {
      padding: 2px 6px;
      transition: background-color 0.2s ease-out, color 0.1s ease-in-out ;
      &:hover {
-       background-color: $primary-clr;
-       border: 1px solid $primary-darker;
-       color: white;
+       background-color: $dark;
+       border: 1px solid $dark;
+       color: $primary-clr;
      }
    }
 
@@ -344,4 +345,58 @@ label {
     }
 
    }
+}
+
+footer {
+   border: 1px solid black;
+  i {
+    font-size: 30px;
+    transition: color 0.1s ease-in-out;
+    &:hover {
+      color: $primary-clr;
+    }
+  }
+
+  .text-logo {
+    font-size: 1.2em;
+    font-weight: 900;
+    display: inline-block;
+    line-height: 1;
+  }
+
+  .about {
+      
+    p {
+      font-size: 0.8em;
+    }
+  }
+}
+
+.categories {
+
+  h3 {
+    color: $primary-clr;
+    font-size: 1.3em;
+    border-bottom: 1px solid $primary-clr;
+    transition: color 10ms ease-in;
+    &:hover {
+      color: $primary-lighter;
+    }
+  }
+   
+  ul {
+
+    list-style: none;
+    padding: 0;
+  }
+
+  a {
+    font-size: 0.8em;
+    color: $light;
+    transition: color 10ms ease-in;
+    &:hover {
+      text-decoration: none;
+      color: $dark;
+    }
+  }
 }

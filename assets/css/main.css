@@ -12,6 +12,7 @@ header {
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
+  min-width: 330px;
 }
 
 .header figure {
@@ -361,9 +362,9 @@ h2.header-ttl {
 }
 
 .sales .add-sign:hover {
-  background-color: #d35266;
-  border: 1px solid #ab4454;
-  color: white;
+  background-color: #383838;
+  border: 1px solid #383838;
+  color: #d35266;
 }
 
 .sales .card-price {
@@ -376,5 +377,59 @@ h2.header-ttl {
 
 .sales .card-price:hover {
   color: #e65a6f;
+}
+
+footer {
+  border: 1px solid black;
+}
+
+footer i {
+  font-size: 30px;
+  -webkit-transition: color 0.1s ease-in-out;
+  transition: color 0.1s ease-in-out;
+}
+
+footer i:hover {
+  color: #d35266;
+}
+
+footer .text-logo {
+  font-size: 1.2em;
+  font-weight: 900;
+  display: inline-block;
+  line-height: 1;
+}
+
+footer .about p {
+  font-size: 0.8em;
+}
+
+.categories h3 {
+  color: #d35266;
+  font-size: 1.3em;
+  border-bottom: 1px solid #d35266;
+  -webkit-transition: color 10ms ease-in;
+  transition: color 10ms ease-in;
+}
+
+.categories h3:hover {
+  color: #e65a6f;
+}
+
+.categories ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categories a {
+  font-size: 0.8em;
+  color: #888888;
+  -webkit-transition: color 10ms ease-in;
+  transition: color 10ms ease-in;
+}
+
+.categories a:hover {
+  text-decoration: none;
+  color: #383838;
 }
 /*# sourceMappingURL=main.css.map */
