@@ -28,7 +28,9 @@ body {
 }
 
 .header {
-  figure {
+  width: 90%;
+   margin: 0 auto;
+  .figure {
     width: 70px;
     
 
@@ -48,13 +50,23 @@ body {
     }
   }
 
+  .btn-post {
+    margin-left: 2em;
+    background-color: $primary-clr;
+    font-weight: 700;
+    border-radius: 7px;
+    padding: 7px 10px;
+    border: 1px solid $primary-clr;
+   }
+
+
   ul {
     list-style: none;
     flex: 1;
     font-size: clamp(10px, 11px, 12px);
     min-width: 256px;
-    max-width: 768px;
-    margin-left: 1em;
+    max-width: 600px;
+    padding-left: 5px;
 
     li {
       @include center;
@@ -73,6 +85,7 @@ body {
     }
   }
 }
+
 
 .wrapper-header {
   background-color: $primary-clr;
@@ -93,7 +106,23 @@ body {
     min-width: 310px;
     border: 1px solid $primary-clr;
     border-radius: 8px;
-    overflow: hidden;
+
+    .dropdown {
+      
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        color: $light;
+        width: 150px;
+        background-color: white;  
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  
     
   }
 
@@ -103,11 +132,12 @@ body {
     min-width: 10px;
     flex-grow: 1;
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid #e2e2e2;
     transition: border 0.1s ease-in-out, 0.1s border 0.1s ease-out;
     &:focus {
         border: 3px solid $primary-clr;
         background-color: white;
+        
     }
   }
 
@@ -136,6 +166,7 @@ body {
     }
   }
 }
+
 
 .filter {
    padding: 0;
@@ -196,6 +227,7 @@ h2.header-ttl{
   width: 500%;
   display: flex;
   animation: slider 20s infinite;
+
   
   .cardo {
     height: 100%;

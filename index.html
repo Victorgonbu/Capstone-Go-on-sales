@@ -18,8 +18,8 @@
 
 <body>
     <header>
-        <nav class="header container-fluid d-flex">
-            <figure class="text-uppercase text-dark bolder mb-0 d-flex   ">
+        <nav class="header container-fluid d-flex  justify-content-md-center">
+            <div class="figure text-uppercase text-dark bolder mb-0 d-flex   ">
 
                 <i class="fas fa-desktop"></i>
                 <span>
@@ -28,7 +28,7 @@
                     Sales
                 </span>
 
-            </figure>
+            </div>
 
             <ul class="d-flex mb-0 ml-3">
                 <li class="text-uppercase"><a href="">
@@ -40,11 +40,13 @@
                 <li class="text-upppercase"><a href="">
                         <i class="fas fa-shopping-cart pr-1"></i>
                         Purchase list</a></li>
+
+                 <li class="d-none d-md-flex align-items-md-center"><button class="btn-post text-uppercase  text-white">
+                    post an ad
+                </button></li>       
             </ul>
 
-            <button class="text-uppercase d-none">
-                post an ad
-            </button>
+            
 
         </nav>
 
@@ -61,15 +63,40 @@
 
 
 
-                <nav class="search-section d-flex ">
+                <nav class="search-section d-flex d-md-block">
 
+                    <div class="hero-logo d-none d-md-block d-md-flex justify-content-center">
 
+                        <i class="fas fa-desktop"></i>
 
-                    <form action="" class="navbar-form">
-                        <button class="navbar-toggler toggle" type="button" data-toggle="collapse" data-target="#mynav">
+                        <p class="text-capitalize">Go <br> On <br> Sales</p>
+
+                    </div>
+
+                    <form action="" class="navbar-form ">
+                        <button class="navbar-toggler toggle d-md-none" type="button" data-toggle="collapse" data-target="#mynav">
                             <i class="fas fa-sliders-h"></i>
                         </button>
-                        <input type="text" placeholder="Make it real">
+
+                        <div class="dropdown d-none d-md-inline-block mr-md-1">
+                            <a class="dropdown-toggle text-capitalize p-0" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown">All Categories</a>
+                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="#" class="dropdown-item">graphics card</a>
+                            <a href="#" class="dropdown-item">Proccesors</a>
+                            <a href="#" class="dropdown-item">Power Supply's</a>
+                            <a href="#" class="dropdown-item">Motherboards</a>
+                            <a href="#" class="dropdown-item">Memory ram</a>
+                            <a href="#" class="dropdown-item">HDD Storage</a>
+                            <a href="#" class="dropdown-item">Ssd Storage</a>
+                            <a href="#" class="dropdown-item">Cases</a>
+                            <a href="#" class="dropdown-item">Monitors</a>
+
+                        </div>
+                        </div>
+                         
+                        <input class="mr-md-1" type="text" placeholder="Make it real">
+                        <input class="d-none d-md-inline-block mr-md-3" type="text" placeholder="Location">
                         <button class="search">Search</button>
 
 

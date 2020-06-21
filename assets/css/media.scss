@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+    .wrapper-header {
+        height: 200px;
+    }
+
+    .header {
+
+        ul {
+            max-width: 600px;
+        }
+    }
+
+    .hero-logo {
+        color: white;
+        
+        i {
+            font-size: 80px;
+        }
+
+        p {
+            font-size: 30px;
+            font-weight: 900;
+            margin-bottom:1em;
+            line-height: 1;
+        
+        }
+    }
+
+    .header-search {
+        input {
+            padding: 0.6em;
+        }
+       
+    }
+
+}
