@@ -77,9 +77,23 @@ $primary-lighter: #e65a6f;
 
 @media (min-width:992px) {
 
+    .header {
+
+        ul {
+            min-width: 500px;
+        }
+    }
+
     .profile {
         color: $light;
         font-size: 1em;
+
+        i {
+            &:hover {
+                color: $primary-clr;
+            }
+        }
+
 
         img {
             width: 20px;

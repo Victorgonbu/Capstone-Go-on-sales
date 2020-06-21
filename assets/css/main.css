@@ -164,16 +164,20 @@ body {
 
 .header-search .search {
   background-color: #383838;
-  color: #888888;
   border: 1px solid #383838;
   border-radius: 2px;
+}
+
+.header-search .search a {
+  color: #888888;
   -webkit-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
   width: 70px;
 }
 
-.header-search .search:hover {
+.header-search .search a:hover {
   color: #e2e2e2;
+  text-decoration: none;
 }
 
 .filter {
@@ -441,7 +445,8 @@ footer .text-logo {
 }
 
 footer .about p {
-  font-size: 0.8em;
+  font-size: 0.6em;
+  color: #888888;
 }
 
 .categories h3 {

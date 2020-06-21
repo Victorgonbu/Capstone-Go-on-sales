@@ -25,6 +25,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
     min-width: 330px;
+
 }
 
 .header {
@@ -152,18 +153,20 @@ body {
   }
 
   .search {
-    
     background-color: $dark;
-    color: $light;
     border: 1px solid $dark;
     border-radius: 2px;
+    a {
+    color: $light;
     transition: color 0.1s ease-in-out;
     width: 70px;
-    
     &:hover {
         color: #e2e2e2;
-        
+        text-decoration: none;
     }
+    }
+    
+    
   }
 }
 
@@ -405,7 +408,8 @@ footer {
   .about {
       
     p {
-      font-size: 0.8em;
+      font-size: 0.6em;
+      color: $light;
     }
   }
 }

@@ -53,9 +53,15 @@
 }
 
 @media (min-width: 992px) {
+  .header ul {
+    min-width: 500px;
+  }
   .profile {
     color: #888888;
     font-size: 1em;
+  }
+  .profile i:hover {
+    color: #d35266;
   }
   .profile img {
     width: 20px;
