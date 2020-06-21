@@ -352,7 +352,9 @@ h2.header-ttl {
 }
 
 .sales h2 {
-  border-bottom: 1px solid #888888;
+  border-bottom: 1px solid #d9d9d9;
+  -webkit-box-shadow: 1px;
+          box-shadow: 1px;
   padding-bottom: 5px;
 }
 
