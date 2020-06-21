@@ -61,5 +61,11 @@
     width: 20px;
     border-radius: 40%;
   }
+  .copyright {
+    padding-top: 10px;
+  }
+  .copyright span {
+    line-height: 1;
+  }
 }
 /*# sourceMappingURL=media.css.map */

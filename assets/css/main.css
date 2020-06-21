@@ -420,7 +420,7 @@ h2.header-ttl {
 }
 
 footer {
-  border: 1px solid black;
+  border: 1px solid #d9d9d9;
 }
 
 footer i {
@@ -501,10 +501,10 @@ footer .about p {
 }
 
 .copyright {
-  border-top: 1px solid #888888;
+  border-top: 1px solid #d9d9d9;
 }
 
-.copyright p {
+.copyright span {
   font-size: 0.8em;
   color: #888888;
 }

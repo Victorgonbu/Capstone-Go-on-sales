@@ -386,7 +386,7 @@ label {
 }
 
 footer {
-   border: 1px solid black;
+   border: 1px solid #d9d9d9;
   i {
     font-size: 30px;
     transition: color 0.1s ease-in-out;
@@ -468,8 +468,8 @@ footer {
 }
 
 .copyright {
-   border-top: 1px solid $light;
-  p {
+   border-top: 1px solid #d9d9d9;
+  span {
     font-size: 0.8em;
     color: $light;
   }
