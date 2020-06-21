@@ -324,10 +324,13 @@ h2.header-ttl {
 }
 
 .sales .card {
-  border: 1px solid #888888;
+  border: 1px solid #d9d9d9;
   margin: 10px 16px;
-  -webkit-box-shadow: 1px 1px 1px #888888;
-          box-shadow: 1px 1px 1px #888888;
+  -webkit-box-shadow: 1px 1px 1px #d9d9d9;
+          box-shadow: 1px 1px 1px #d9d9d9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .sales .card img {
@@ -431,5 +434,60 @@ footer .about p {
 .categories a:hover {
   text-decoration: none;
   color: #383838;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info ul li {
+  padding: 2px 1em;
+  margin: 5px 0;
+}
+
+.info .left-info {
+  color: #d35266;
+}
+
+.info .left-info li {
+  padding-left: 0;
+}
+
+.info .right-info li {
+  border: 1px solid #d9d9d9;
+}
+
+.info .right-info li:hover {
+  -webkit-box-shadow: 1px 1px 5px #d9d9d9;
+          box-shadow: 1px 1px 5px #d9d9d9;
+}
+
+.copyright {
+  border-top: 1px solid #888888;
+}
+
+.copyright p {
+  font-size: 0.8em;
+  color: #888888;
+}
+
+.copyright ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social-media li {
+  padding: 0 1em;
+}
+
+.social-media a {
+  color: #888888;
 }
 /*# sourceMappingURL=main.css.map */

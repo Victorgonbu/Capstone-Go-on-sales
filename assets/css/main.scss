@@ -292,11 +292,19 @@ label {
     border-bottom: 1px solid $light;
     padding-bottom: 5px;
   }
+
+  div.row {
+    background-color: red;
+    border: 10px solid green;
+  display: flex;
+  flex-direction: row;
+  }
     
     .card {
-      border: 1px solid $light;
+      border: 1px solid #d9d9d9;
       margin: 10px 16px ;
-      box-shadow: 1px 1px 1px $light;
+      box-shadow: 1px 1px 1px #d9d9d9;
+      
     }
 
    .card img {
@@ -398,5 +406,60 @@ footer {
       text-decoration: none;
       color: $dark;
     }
+  }
+}
+
+.info {
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      padding: 2px 1em;
+      margin: 5px 0;
+    }
+  }
+
+  .left-info {
+    color: $primary-clr;
+    li {
+      padding-left: 0;
+    }
+   
+  }
+  .right-info {
+    li {
+      border: 1px solid #d9d9d9;
+      &:hover {
+        box-shadow: 1px 1px 5px #d9d9d9;
+      }
+    }
+  }
+}
+
+.copyright {
+   border-top: 1px solid $light;
+  p {
+    font-size: 0.8em;
+    color: $light;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+}
+
+.social-media {
+  ul {
+    justify-content: center;
+  }
+
+  li {
+    padding: 0 1em;
+  }
+
+  a {
+    color: $light;
   }
 }
