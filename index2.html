@@ -4,8 +4,241 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ea4197418c.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <header>
+        <nav class="header d-flex  justify-content-md-center ">
+            <div class="figure text-uppercase text-dark bolder mb-0 d-flex   ">
+
+                <i class="fas fa-desktop"></i>
+                <span>
+                    go <br>
+                    on <br>
+                    Sales
+                </span>
+
+            </div>
+
+            <ul class="d-flex mb-0 ml-3">
+                <li class="text-capitalize  ">
+                    <a class="d-flex flex-column align-items-center d-md-inline-block" href="">
+                        <i class="fas fa-home pr-1"></i>
+                        Home</a></li>
+                <li class="text-md-uppercase text-capitalize pr-1"><a class="d-flex flex-column align-items-center d-md-inline-block" href="">
+                        <i class="fas fa-box pr-1"></i>
+                        Collection</a></li>
+                <li class="text-md-uppercase text-capitalize"><a class="d-flex flex-column align-items-center d-md-inline-block" href="">
+                        <i class="fas fa-shopping-cart pr-1"></i>
+                        Purchase list</a></li>
+
+                 <li class="d-none d-md-flex align-items-md-center"><button class="btn-post text-uppercase  text-white">
+                    post an ad
+                </button></li>       
+            </ul>
+
+            <div class="profile d-none d-lg-flex align-items-center justify-content-end w-50">
+                <i class="fas fa-envelope"></i>
+                <span class="text-capitalize px-2">Jonh Doe</span>
+                <img src="./assets/img/John_Doe.webp" alt="">
+            </div>
+
+            
+
+        </nav>
+
+
+
+    </header>
+
+    <main>
+        <div class="wrapper-header w-100 ">
+
+            <div class="header-search ">
+
+
+
+                <nav class="search-section d-flex d-md-block">
+
+                    <div class="hero-logo d-none d-md-block d-md-flex justify-content-center">
+
+                        <i class="fas fa-desktop"></i>
+
+                        <p class="text-capitalize">Go <br> On <br> Sales</p>
+
+                    </div>
+
+                    <div class="fig-logo d-none d-md-block">
+                        <p>not a dream. its reality</p>
+                    </div>
+
+                    <div class="logo-bg d-none d-md-block">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+
+                    <form action="" class="navbar-form ">
+                        <button class="navbar-toggler toggle d-md-none" type="button" data-toggle="collapse" data-target="#mynav">
+                            <i class="fas fa-sliders-h"></i>
+                        </button>
+
+                        <div class="dropdown d-none d-md-inline-block mr-md-1">
+                            <a class="dropdown-toggle text-capitalize p-0" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown">All Categories</a>
+                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="#" class="dropdown-item">graphics card</a>
+                            <a href="#" class="dropdown-item">Proccesors</a>
+                            <a href="#" class="dropdown-item">Power Supply's</a>
+                            <a href="#" class="dropdown-item">Motherboards</a>
+                            <a href="#" class="dropdown-item">Memory ram</a>
+                            <a href="#" class="dropdown-item">HDD Storage</a>
+                            <a href="#" class="dropdown-item">Ssd Storage</a>
+                            <a href="#" class="dropdown-item">Cases</a>
+                            <a href="#" class="dropdown-item">Monitors</a>
+
+                        </div>
+                        </div>
+                         
+                        <input class="mr-md-1" type="text" placeholder="Make it real">
+                        <input class="d-none d-md-inline-block mr-md-3" type="text" placeholder="Location">
+                        <button class="search"><a href="./index2.html">Search</a></button>
+
+
+                    </form>
+
+                </nav>
+
+                <div class="filter collapse navbar-collapse" id="mynav">
+                    <ul class="navbar-nav ml-auto navbar-expand mt-1">
+                        <li class="nav-item dropdown text-uppercase mr-3 p-1 d-flex">
+
+                            <a class="nav-link dropdown-toggle text-capitalize p-0" href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown">All Categories</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a href="#" class="dropdown-item">graphics card</a>
+                                <a href="#" class="dropdown-item">Proccesors</a>
+                                <a href="#" class="dropdown-item">Power Supply's</a>
+                                <a href="#" class="dropdown-item">Motherboards</a>
+                                <a href="#" class="dropdown-item">Memory ram</a>
+                                <a href="#" class="dropdown-item">HDD Storage</a>
+                                <a href="#" class="dropdown-item">Ssd Storage</a>
+                                <a href="#" class="dropdown-item">Cases</a>
+                                <a href="#" class="dropdown-item">Monitors</a>
+
+                            </div>
+
+                        </li>
+                        <li class="nav-item text-uppercase p-0">
+                            <input type="text" placeholder="Location">
+                        </li>
+
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links d-flex flex-column flex-md-row flex-md-wrap align-items-md-center p-3">
+            <div class="about col-md-6 col-lg-3">
+                <div class="footer-logo d-flex align-items-center justify-content-center">
+                    <i class="fas fa-desktop mr-1"></i>
+                    <span class="text-logo text-capitalize">Go <br> On <br> Sales </span>
+                </div>
+                
+                <p class="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent elementum feugiat magna, elementum
+                    porttitor turpis accumsan in. Proin vehicula lacus ut ex imperdiet, in bibendum urna ornare.
+                </p>
+            </div>
+
+            <div class="categories col-md-6 order-md-1 col-lg-3 order-lg-0">
+               <h3 class="categories-title text-uppercase">Categories</h3>
+               <div class="lists-c d-flex">
+                <ul class="categories-list mr-3">
+                    <li><a class="text-capitalize" href="">Desktops</a></li>
+                    <li><a class="text-capitalize" href="">Laptops/Notebooks</a></li>
+                    <li><a class="text-capitalize" href="">Gaming Laptops</a></li>
+                    <li><a class="text-capitalize" href="">Peripherals</a></li>
+                    <li><a class="text-capitalize" href="">Accesories</a></li>
+                    <li><a class="text-capitalize" href="">Refurbished</a></li>
+                    
+                </ul>
+ 
+                <ul class="categories-list">
+                 <li><a class="text-capitalize" href="">Core Components</a></li>
+                 <li><a class="text-capitalize" href="">Storage Devices</a></li>
+                 <li><a class="text-capitalize" href="">Specialty Electronics</a></li>
+                 <li><a class="text-capitalize" href="">Tools</a></li>
+ 
+ 
+ 
+                </ul>
+               </div>
+               
+            </div>
+
+            <div class="categories navigation col-md-6 order-md-1 col-lg-3 order-lg-0">
+                <h3 class="navigation">Navigation</h3>
+               <ul class="navigation-list">
+                <li><a class="text-capitalize" href="">Home</a></li>
+                <li><a class="text-capitalize" href="">Sign in</a></li>
+                <li><a class="text-capitalize" href="">Sign Up</a></li>
+                <li><a class="text-capitalize" href="">Terms & Conditions</a></li>
+                <li><a class="text-uppercase" href="">FAQ</a></li>
+                <li><a class="text-capitalize" href="">Help</a></li>
+               </ul>
+            </div>
+
+            <div class="info d-flex justify-content-between col-md-6 col-lg-3">
+                <ul class="left-info">
+                    <li>Country</li>
+                    <li>Language</li>
+                    <li>Currency</li>
+                </ul>
+                <ul class="right-info">
+                    <li>Zwitserland</li>
+                    <li>English</li>
+                    <li>US Dollar</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright d-flex flex-column justify-content-center px-3  flex-lg-row justify-content-lg-between">
+            <span class="text-center mb-0">Copyright© 2015 Zattix.com. All Rights Reserved. Designed by Mohammed Awad. </span>
+            <div class="social-media">
+                <ul class="d-flex ">
+                    <li><a href=""><i class="fab fa-yahoo"></i> </a></li>
+                    <li><a href=""><i class="fab fa-google-plus-square"></i></a></li>
+                    <li><a href=""><i class="fab fa-linkedin-in"></i> </a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>   
 </body>
 </html>
