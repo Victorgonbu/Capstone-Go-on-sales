@@ -324,13 +324,14 @@ h2.header-ttl {
 }
 
 .sales .card {
+  border: 0;
+}
+
+.sales .card-wrapper {
+  height: 100%;
   border: 1px solid #d9d9d9;
-  margin: 10px 16px;
   -webkit-box-shadow: 1px 1px 1px #d9d9d9;
           box-shadow: 1px 1px 1px #d9d9d9;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .sales .card img {
@@ -338,6 +339,7 @@ h2.header-ttl {
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
+  display: block;
 }
 
 .sales .new {

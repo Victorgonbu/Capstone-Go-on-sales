@@ -292,19 +292,15 @@ label {
     border-bottom: 1px solid $light;
     padding-bottom: 5px;
   }
-
-  div.row {
-    background-color: red;
-    border: 10px solid green;
-  display: flex;
-  flex-direction: row;
-  }
     
     .card {
+      border: 0;
+     
+    } 
+    .card-wrapper {
+      height: 100%;
       border: 1px solid #d9d9d9;
-      margin: 10px 16px ;
       box-shadow: 1px 1px 1px #d9d9d9;
-      
     }
 
    .card img {
@@ -312,6 +308,7 @@ label {
      width:100%;
      max-width: 400px;
      margin: 0 auto;
+     display: block;
      
    }
 
