@@ -39,7 +39,27 @@
     padding: 0.6em;
   }
   .slider {
-    height: 300px;
+    height: 240px;
+  }
+  .slider .cardo {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .slider .cardo img {
+    width: 50%;
+    max-width: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .profile {
+    color: #888888;
+    font-size: 1em;
+  }
+  .profile img {
+    width: 20px;
+    border-radius: 40%;
   }
 }
 /*# sourceMappingURL=media.css.map */
