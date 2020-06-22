@@ -156,10 +156,12 @@ body {
   }
 
   .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: $dark;
     border: 1px solid $dark;
     border-radius: 2px;
-    a {
     color: $light;
     transition: color 0.1s ease-in-out;
     width: 70px;
@@ -167,7 +169,7 @@ body {
         color: #e2e2e2;
         text-decoration: none;
     }
-    }
+    
     
     
   }

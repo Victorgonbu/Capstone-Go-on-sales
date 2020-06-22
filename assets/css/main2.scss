@@ -40,7 +40,7 @@ $primary-lighter: #e65a6f;
 
     h6 {
         color: $dark;
-        transition: color 0.1s ease-in;
+        transition: color 30ms ease-in;
         &:hover {
             color: $primary-clr;
         }
@@ -82,6 +82,26 @@ $primary-lighter: #e65a6f;
          color: rgb(255, 123, 0)
     }
 }
+
+.pages {
+    
+
+    span {
+
+    margin: 1em 0.2em;
+    display: inline-block;
+    padding: 1px 8px;
+    border: 1px solid #d9d9d9;
+    position: relative;
+    transition: background-color 20ms ease-out;
+
+    &:hover {
+     background-color: $primary-clr;
+    }
+        }
+}
+
+    
 
 
 

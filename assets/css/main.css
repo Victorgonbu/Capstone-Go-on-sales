@@ -168,19 +168,25 @@ body {
 }
 
 .header-search .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #383838;
   border: 1px solid #383838;
   border-radius: 2px;
-}
-
-.header-search .search a {
   color: #888888;
   -webkit-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
   width: 70px;
 }
 
-.header-search .search a:hover {
+.header-search .search:hover {
   color: #e2e2e2;
   text-decoration: none;
 }

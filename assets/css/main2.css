@@ -28,8 +28,8 @@
 
 .search-filter h6 {
   color: #383838;
-  -webkit-transition: color 0.1s ease-in;
-  transition: color 0.1s ease-in;
+  -webkit-transition: color 30ms ease-in;
+  transition: color 30ms ease-in;
 }
 
 .search-filter h6:hover {
@@ -65,6 +65,20 @@
 
 .result-filter .sale-b {
   color: #ff7b00;
+}
+
+.pages span {
+  margin: 1em 0.2em;
+  display: inline-block;
+  padding: 1px 8px;
+  border: 1px solid #d9d9d9;
+  position: relative;
+  -webkit-transition: background-color 20ms ease-out;
+  transition: background-color 20ms ease-out;
+}
+
+.pages span:hover {
+  background-color: #d35266;
 }
 
 @media (min-width: 768px) {
