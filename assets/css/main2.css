@@ -84,8 +84,14 @@
     font-size: 0.8em;
     margin-bottom: 0.5em;
   }
+  .result-filter {
+    margin-top: 48.5px;
+  }
   .result-filter p {
     padding-right: 36px;
+  }
+  .result-filt {
+    margin-top: 1em;
   }
 }
 /*# sourceMappingURL=main2.css.map */
