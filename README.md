@@ -18,6 +18,11 @@ This web page is developed by HTML5, SCSSS and Bootstrap.
 
 https://shaqri.github.io/Capstone-Go-on-sales/
 
+
+## Video Link
+
+https://www.loom.com/share/bdd98e94db464111b21d378a6d29deb2
+
 ## Getting Started
 
 **Install on Your Own Machine.**
