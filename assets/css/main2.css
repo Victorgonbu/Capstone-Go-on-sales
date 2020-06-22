@@ -57,6 +57,7 @@
 }
 
 .result-filter .add .card-price {
+  font-size: 1.7em;
   background-color: #d35266;
   color: white;
   padding: 0 1em;
@@ -89,6 +90,9 @@
   }
   .result-filter p {
     padding-right: 36px;
+  }
+  .result-filter .card img {
+    max-width: 300px;
   }
   .result-filt {
     margin-top: 1em;

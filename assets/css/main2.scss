@@ -71,6 +71,7 @@ $primary-lighter: #e65a6f;
 
     .add {
         .card-price {
+            font-size: 1.7em;
             background-color: $primary-clr;
             color: white;
             padding: 0 1em;
@@ -109,10 +110,16 @@ $primary-lighter: #e65a6f;
         p {
             padding-right: 36px;
         }
+
+        .card img {
+            max-width: 300px;
+        }
     }
 
     .result-filt {
         margin-top: 1em;
+
+        
     }
 }
 
