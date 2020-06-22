@@ -19,6 +19,100 @@
     text-transform: capitalize;
     font-weight: 300;
   }
+  .wrapper-header .fig-logo p .dream {
+    display: inline-block;
+    position: relative;
+  }
+  .wrapper-header .fig-logo p .dream::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-animation: 2s line linear forwards;
+            animation: 2s line linear forwards;
+  }
+  @-webkit-keyframes line {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+    }
+    90% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: right;
+              transform-origin: right;
+      background-color: #d35266;
+    }
+  }
+  @keyframes line {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+    }
+    90% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: right;
+              transform-origin: right;
+      background-color: #d35266;
+    }
+  }
+  .wrapper-header .fig-logo p .real {
+    position: relative;
+  }
+  .wrapper-header .fig-logo p .real::after {
+    content: '';
+    width: 100%;
+    background-color: white;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    -webkit-animation: 2s line2 1s linear forwards;
+            animation: 2s line2 1s linear forwards;
+  }
+  @-webkit-keyframes line2 {
+    90% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: right;
+              transform-origin: right;
+    }
+  }
+  @keyframes line2 {
+    90% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: right;
+              transform-origin: right;
+    }
+  }
   .header ul {
     max-width: 600px;
   }
