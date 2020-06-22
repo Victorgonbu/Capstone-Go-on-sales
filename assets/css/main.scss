@@ -132,8 +132,8 @@ body {
     border: 1px solid #e2e2e2;
     transition: border 0.1s ease-in-out, 0.1s border 0.1s ease-out;
     &:focus {
-      border: 3px solid $primary-clr;
-      background-color: white;
+      border: 10px solid white;
+      
     }
   }
 

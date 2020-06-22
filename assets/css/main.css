@@ -156,8 +156,7 @@ body {
 }
 
 .header-search input:focus {
-  border: 3px solid #d35266;
-  background-color: white;
+  border: 10px solid white;
 }
 
 .header-search .toggle {
