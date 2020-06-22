@@ -130,9 +130,11 @@ body {
     flex-grow: 1;
     display: inline-block;
     border: 1px solid #e2e2e2;
-    transition: border 0.1s ease-in-out, 0.1s border 0.1s ease-out;
+    transition: all 0.1s ease-in-out;
     &:focus {
-      border: 10px solid white;
+       transform: translate(-2px);
+       box-shadow: 1px 1px 3px #d9d9d9;
+     
       
     }
   }
