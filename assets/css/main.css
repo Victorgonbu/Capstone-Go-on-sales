@@ -384,6 +384,16 @@ h2.header-ttl {
 }
 
 .sales .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 100%;
   border: 1px solid #d9d9d9;
   -webkit-box-shadow: 1px 1px 1px #d9d9d9;
