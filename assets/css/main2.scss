@@ -1,0 +1,133 @@
+$primary-clr: #d35266;
+$light: #888888;
+$dark: #383838;
+$primary-darker: #ab4454;
+$primary-lighter: #e65a6f;
+
+.search-filter {
+  p {
+    font-size: 0.7em;
+    color: $light;
+    margin-bottom: 2px;
+  }
+  .brand-result {
+    &::before {
+      content: open-quote;
+    }
+
+    &::after {
+      content: close-quote;
+    }
+  }
+
+  .any {
+    margin: 1em 0;
+
+    a {
+      color: $primary-darker;
+    }
+  }
+
+  h1 {
+    font-size: 1.2em;
+    padding: 0.2em 0;
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  h2 {
+    font-size: 1em;
+    color: $dark;
+    transition: color 30ms ease-in;
+    &:hover {
+      color: $primary-clr;
+    }
+    a {
+      color: $dark;
+      text-decoration: none;
+    }
+  }
+
+  label {
+    font-size: 0.8em;
+  }
+}
+
+.result-filter {
+  p {
+    font-size: 0.8em;
+    color: $light;
+    margin: 1em 0;
+  }
+
+  .from {
+    color: black;
+    font-weight: 700;
+  }
+
+  .title {
+    justify-content: space-between;
+  }
+
+  .add {
+    .card-price {
+      font-size: 1.7em;
+      background-color: $primary-clr;
+      color: white;
+      padding: 0 1em;
+    }
+  }
+
+  .sale-b {
+    color: rgb(255, 123, 0);
+  }
+}
+
+.pages {
+  span {
+    margin: 1em 0.2em;
+    display: inline-block;
+    padding: 1px 8px;
+    border: 1px solid #d9d9d9;
+    position: relative;
+    transition: background-color 20ms ease-out;
+
+    &:hover {
+      background-color: $primary-clr;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper-header {
+    height: fit-content;
+    padding: 1.5em;
+
+    p {
+      margin: 0;
+    }
+
+    .small-logo {
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .logo-span {
+      font-size: 0.8em;
+      margin-bottom: 0.5em;
+    }
+  }
+  .result-filter {
+    margin-top: 48.5px;
+    p {
+      padding-right: 36px;
+    }
+
+    .card img {
+      max-width: 300px;
+    }
+  }
+
+  .result-filt {
+    margin-top: 1em;
+  }
+}
