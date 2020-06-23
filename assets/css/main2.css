@@ -1,6 +1,6 @@
 .search-filter p {
   font-size: 0.7em;
-  color: #888888;
+  color: #888;
   margin-bottom: 2px;
 }
 
@@ -14,6 +14,11 @@
 
 .search-filter .any {
   margin: 1em 0;
+}
+
+.search-filter h2 a {
+  color: #383838;
+  text-decoration: none;
 }
 
 .search-filter .any a {
@@ -37,18 +42,13 @@
   color: #d35266;
 }
 
-.search-filter h2 a {
-  color: #383838;
-  text-decoration: none;
-}
-
 .search-filter label {
   font-size: 0.8em;
 }
 
 .result-filter p {
   font-size: 0.8em;
-  color: #888888;
+  color: #888;
   margin: 1em 0;
 }
 
@@ -59,8 +59,8 @@
 
 .result-filter .title {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .result-filter .add .card-price {
@@ -95,28 +95,34 @@
     height: fit-content;
     padding: 1.5em;
   }
+
   .wrapper-header p {
     margin: 0;
   }
+
   .wrapper-header .small-logo {
     font-weight: 700;
     line-height: 1;
   }
+
   .wrapper-header .logo-span {
     font-size: 0.8em;
     margin-bottom: 0.5em;
   }
+
   .result-filter {
     margin-top: 48.5px;
   }
+
   .result-filter p {
     padding-right: 36px;
   }
+
   .result-filter .card img {
     max-width: 300px;
   }
+
   .result-filt {
     margin-top: 1em;
   }
 }
-/*# sourceMappingURL=main2.css.map */
