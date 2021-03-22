@@ -1,5 +1,5 @@
 $primary-clr: #d35266;
-$light: #888888;
+$light: #888;
 $dark: #383838;
 $primary-darker: #ab4454;
 $primary-lighter: #e65a6f;
@@ -8,6 +8,7 @@ $primary-lighter: #e65a6f;
   .wrapper-header {
     height: 250px;
     position: relative;
+
     .logo-bg {
       position: absolute;
       top: 0;
@@ -28,59 +29,58 @@ $primary-lighter: #e65a6f;
         .dream {
           display: inline-block;
           position: relative;
-        &::before {
-          content: '';
-          width: 100%;
-          height: 1px;
-          position: absolute;
-          background-color: white;
-          bottom: 0;
-          transform-origin: left;
-          transform: scaleX(0);
-          animation: 2s line linear forwards;
-        }
-        @keyframes line {
 
-          0% {
+          &::before {
+            content: '';
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            background-color: white;
+            bottom: 0;
+            transform-origin: left;
             transform: scaleX(0);
+            animation: 2s line linear forwards;
           }
 
-      
-          90% {
-            transform: scaleX(1);
-          }
+          @keyframes line {
+            0% {
+              transform: scaleX(0);
+            }
 
-          100% {
-            
-            transform: scaleX(1);
-            transform-origin:right ;
-            background-color:$primary-clr;
-          }
-          
 
-        }
+            90% {
+              transform: scaleX(1);
+            }
+
+            100% {
+              transform: scaleX(1);
+              transform-origin: right;
+              background-color: $primary-clr;
+            }
+          }
         }
 
         .real {
           position: relative;
+
           &::after {
             content: '';
             width: 100%;
-            background-color:white ;
+            background-color: white;
             height: 1px;
             position: absolute;
             bottom: 0;
-            left:0;
+            left: 0;
             transform: scaleX(0);
-            transform-origin:left ;
+            transform-origin: left;
             animation: 2s line2 1s linear forwards;
           }
-  
+
           @keyframes line2 {
             90% {
               transform: scaleX(0);
-              
             }
+
             100% {
               transform: scaleX(1);
               transform-origin: right;
@@ -88,7 +88,6 @@ $primary-lighter: #e65a6f;
           }
         }
       }
-     
     }
   }
 
@@ -107,10 +106,9 @@ $primary-lighter: #e65a6f;
   .hero-logo {
     color: white;
     padding-top: 1em;
-   
+
     i {
       font-size: 80px;
-      
     }
 
     p {
@@ -118,10 +116,7 @@ $primary-lighter: #e65a6f;
       font-weight: 900;
       margin-bottom: 0;
       line-height: 1;
-    
     }
-
-    
   }
 
   .header-search {
@@ -136,8 +131,10 @@ $primary-lighter: #e65a6f;
 
   .slider {
     height: 250px;
+
     .cardo {
       align-items: center;
+
       img {
         width: 50%;
         max-width: 200px;
@@ -171,6 +168,7 @@ $primary-lighter: #e65a6f;
 
   .copyright {
     padding-top: 10px;
+
     span {
       line-height: 1;
     }

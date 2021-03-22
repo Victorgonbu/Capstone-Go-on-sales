@@ -1,5 +1,5 @@
 $primary-clr: #d35266;
-$light: #888888;
+$light: #888;
 $dark: #383838;
 $primary-darker: #ab4454;
 $primary-lighter: #e65a6f;
@@ -34,11 +34,13 @@ body {
 .header {
   width: 90%;
   margin: 0 auto;
+
   .figure {
     width: 70px;
 
     i {
       @include center;
+
       font-size: 30px;
       margin-right: 5px;
       color: $light;
@@ -72,6 +74,7 @@ body {
 
     li {
       @include center;
+
       flex: 1;
       display: flex;
       white-space: nowrap;
@@ -79,9 +82,11 @@ body {
 
     a {
       color: $light;
+
       i {
         font-size: 18px;
       }
+
       &:hover {
         color: $primary-clr;
         text-decoration: none;
@@ -118,6 +123,7 @@ body {
         color: $light;
         width: 150px;
         background-color: white;
+
         &:hover {
           text-decoration: none;
         }
@@ -131,6 +137,7 @@ body {
     display: inline-block;
     border: 1px solid #e2e2e2;
     transition: all 0.1s ease-in-out;
+
     &:focus {
       transform: translate(-2px);
       box-shadow: 1px 1px 3px #d9d9d9;
@@ -157,6 +164,7 @@ body {
     color: $light;
     transition: color 0.1s ease-in-out;
     width: 70px;
+
     &:hover {
       color: #e2e2e2;
       text-decoration: none;
@@ -169,6 +177,7 @@ body {
   position: relative;
   left: 34px;
   width: 80%;
+
   ul {
     align-items: center;
   }
@@ -179,6 +188,7 @@ body {
     border-radius: 4px;
     border: 0;
     transition: border 0.1s ease-in-out;
+
     &:focus {
       border: 2px solid white;
       transform: translateY(0);
@@ -192,7 +202,6 @@ body {
 
     a {
       font-size: 11px;
-
       color: $dark;
     }
   }
@@ -258,6 +267,7 @@ body {
     color: white;
     transition: all 0.2s ease-in-out;
     border: 2px solid $primary-clr;
+
     &:hover {
       background-color: $primary-lighter;
       border: 2px solid $primary-darker;
@@ -272,6 +282,7 @@ body {
     0% {
       left: 0;
     }
+
     20% {
       left: 0;
     }
@@ -279,21 +290,27 @@ body {
     25% {
       left: -100%;
     }
+
     45% {
       left: -100%;
     }
+
     50% {
       left: -200%;
     }
+
     70% {
       left: -200%;
     }
+
     75% {
       left: -300%;
     }
+
     95% {
       left: -300%;
     }
+
     100% {
       left: -400%;
     }
@@ -310,6 +327,7 @@ body {
   .card {
     border: 0;
   }
+
   .card-wrapper {
     display: flex;
     flex-direction: column;
@@ -348,6 +366,7 @@ body {
     border-radius: 5px;
     padding: 2px 6px;
     transition: background-color 0.2s ease-out, color 0.1s ease-in-out;
+
     &:hover {
       background-color: $dark;
       border: 1px solid $dark;
@@ -360,6 +379,7 @@ body {
     font-weight: 900;
     color: $primary-clr;
     transition: color 0.2s ease-out;
+
     &:hover {
       color: $primary-lighter;
     }
@@ -368,9 +388,11 @@ body {
 
 footer {
   border: 1px solid #d9d9d9;
+
   i {
     font-size: 30px;
     transition: color 0.1s ease-in-out;
+
     &:hover {
       color: $primary-clr;
     }
@@ -397,6 +419,7 @@ footer {
     font-size: 1.3em;
     border-bottom: 1px solid $primary-clr;
     transition: color 10ms ease-in;
+
     &:hover {
       color: $primary-lighter;
     }
@@ -411,6 +434,7 @@ footer {
     font-size: 0.8em;
     color: $light;
     transition: color 10ms ease-in;
+
     &:hover {
       text-decoration: none;
       color: $dark;
@@ -431,13 +455,16 @@ footer {
 
   .left-info {
     color: $primary-clr;
+
     li {
       padding-left: 0;
     }
   }
+
   .right-info {
     li {
       border: 1px solid #d9d9d9;
+
       &:hover {
         box-shadow: 1px 1px 5px #d9d9d9;
       }
@@ -447,6 +474,7 @@ footer {
 
 .copyright {
   border-top: 1px solid #d9d9d9;
+
   span {
     font-size: 0.8em;
     color: $light;

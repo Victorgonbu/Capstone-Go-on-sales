@@ -1,5 +1,5 @@
 $primary-clr: #d35266;
-$light: #888888;
+$light: #888;
 $dark: #383838;
 $primary-darker: #ab4454;
 $primary-lighter: #e65a6f;
@@ -10,6 +10,7 @@ $primary-lighter: #e65a6f;
     color: $light;
     margin-bottom: 2px;
   }
+
   .brand-result {
     &::before {
       content: open-quote;
@@ -38,9 +39,11 @@ $primary-lighter: #e65a6f;
     font-size: 1em;
     color: $dark;
     transition: color 30ms ease-in;
+
     &:hover {
       color: $primary-clr;
     }
+
     a {
       color: $dark;
       text-decoration: none;
@@ -116,8 +119,10 @@ $primary-lighter: #e65a6f;
       margin-bottom: 0.5em;
     }
   }
+
   .result-filter {
     margin-top: 48.5px;
+
     p {
       padding-right: 36px;
     }
